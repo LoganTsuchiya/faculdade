@@ -1,0 +1,72 @@
+console.log ("hello world");
+
+/*
+const pi = 3.14;
+var x: number =3; 
+var y: string = "asdadasd";
+var z: boolean = true;
+var a: any = 3;
+
+
+
+function a(){
+for(var i =0; i <1; i++){
+
+console.log(variavelvar)
+
+}
+
+
+
+
+
+if(10 >= 5); 
+
+}
+
+console.log(9**7)
+*/
+
+
+/*
+// 1)
+var x = 1; 
+var y = 4;
+
+console.log("valor inicial:" , x)
+
+console.log("valor final:" , x + y)
+
+*/
+
+var contador = 0;
+
+var somaImpar = 0;
+var somaPar = 0;
+var y = 8;
+ 
+for(var x = 4 - 1; x < y; y --) {
+
+console.log(y);
+
+if(y%2 == 0) {
+
+somaPar = somaPar + y;
+
+
+
+
+} else { 
+
+somaImpar = somaImpar +y;
+
+contador ++ ;
+
+}
+
+
+
+}
+console.log("A soma dos números pares é: " , somaPar);
+console.log("A soma dos números Impares é: " , somaImpar);
+console.log(contador);
